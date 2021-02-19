@@ -1,11 +1,11 @@
 version: "2"
-slug: "loriot"
-name: "LORIOT"
+slug: "LoriotBal"
+name: "LORIOTBAL"
 type: "sw.application"
 assets:
-  - url: "https://github.com/shawaj/LORIOT"
+  - url: "https://github.com/fsfikke/LoriotBal"
     name: "repository"
-  - url: "https://raw.githubusercontent.com/shawaj/LORIOT/main/logo.png"
+  - url: "https://github.com/fsfikke/LoriotBal/main/logo.png"
     name: "logo"
 data:
   description: "Deploys a TTN LoRaWAN gateway with LORIOT. It runs on a Raspberry Pi or Fin with a SX1301 based SPI concentrator."
