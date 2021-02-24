@@ -9,6 +9,7 @@ RUN wget https://loriot.shell.com/home/gwsw/loriot-pi-3-sx1301_1255-SPI-0-latest
 RUN chmod +x loriot-gw
 RUN wget https://github.com/fsfikke/LoriotBal/blob/main/reset.sh
 RUN chmod +x reset.sh
+
 CMD ./reset.sh
 CMD ./loriot-gw -f -s loriot.shell.com
 CMD ./reset.sh
